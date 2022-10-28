@@ -15,7 +15,7 @@ C:/Users/hci-admin/Documents/GitHub/DiverInterface2022
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56855
+51936
 Successfully changed project path to: C:/Users/hci-admin/Documents/GitHub/DiverInterface2022
 C:/Users/hci-admin/Documents/GitHub/DiverInterface2022
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ C:/Users/hci-admin/Documents/GitHub/DiverInterface2022
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 83.81 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.34 ms.
+Refreshing native plugins compatible for Editor in 80.37 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.33 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/hci-admin/Documents/GitHub/DiverInterface2022/Assets
@@ -64,53 +64,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002244 seconds.
+Registered in 0.002563 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 76.92 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 84.24 ms, found 8 plugins.
 Preloading 1 native plugins for Editor in 0.09 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.383 seconds
+- Completed reload, in  0.470 seconds
 Domain Reload Profiling:
-	ReloadAssembly (384ms)
-		BeginReloadAssembly (35ms)
+	ReloadAssembly (470ms)
+		BeginReloadAssembly (54ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (291ms)
-			LoadAssemblies (34ms)
+		EndReloadAssembly (344ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (61ms)
+			SetupTypeCache (84ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (14ms)
-			SetupLoadedEditorAssemblies (187ms)
+			RebuildScriptCaches (15ms)
+			SetupLoadedEditorAssemblies (209ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
+				InitializePlatformSupportModulesInManaged (41ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (77ms)
+				RefreshPlugins (84ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (52ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				ProcessInitializeOnLoadAttributes (56ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003727 seconds.
+Registered in 0.004129 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\hci-admin\Documents\GitHub\DiverInterface2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\hci-admin\Documents\GitHub\DiverInterface2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 80.07 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 88.48 ms, found 8 plugins.
 Preloading 1 native plugins for Editor in 0.04 ms.
 Package Manager log level set to [2]
 [XR] OculusXRPlugin: registering subsystems
@@ -119,30 +119,30 @@ Package Manager log level set to [2]
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.78.0
 Mono: successfully reloaded assembly
-- Completed reload, in  0.896 seconds
+- Completed reload, in  1.074 seconds
 Domain Reload Profiling:
-	ReloadAssembly (897ms)
-		BeginReloadAssembly (167ms)
+	ReloadAssembly (1075ms)
+		BeginReloadAssembly (176ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (117ms)
-		EndReloadAssembly (665ms)
-			LoadAssemblies (50ms)
+			CreateAndSetChildDomain (126ms)
+		EndReloadAssembly (828ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (168ms)
+			SetupTypeCache (217ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (373ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (419ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (80ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (170ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (3ms)
@@ -150,13 +150,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.89 ms, found 8 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 8 plugins.
 Preloading 1 native plugins for Editor in 0.04 ms.
 Unloading 6471 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (151.1 KB). Loaded Objects now: 6917.
-Memory consumption went from 260.2 MB to 260.0 MB.
-Total: 4.164800 ms (FindLiveObjects: 0.799700 ms CreateObjectMapping: 0.244100 ms MarkObjects: 2.973100 ms  DeleteObjects: 0.146400 ms)
+Unloading 62 unused Assets / (143.3 KB). Loaded Objects now: 6917.
+Memory consumption went from 260.2 MB to 260.1 MB.
+Total: 2.558800 ms (FindLiveObjects: 0.302500 ms CreateObjectMapping: 0.171400 ms MarkObjects: 1.952100 ms  DeleteObjects: 0.132000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,39 +170,36 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 41335.450849 seconds.
-  path: Assets/Diving Simulation/Scenes/Death (Battery).unity
-  artifactKey: Guid(c8eec29be5c99db45ac2581f7a08779e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Diving Simulation/Scenes/Death (Battery).unity using Guid(c8eec29be5c99db45ac2581f7a08779e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c31f7ef1c8bb624b2dce32940f3163') in 0.011441 seconds 
+  Time since last request: 44648.259042 seconds.
+  path: Assets/Terrain.asset
+  artifactKey: Guid(427b32d391da3c14892a9a0366dc86c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain.asset using Guid(427b32d391da3c14892a9a0366dc86c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Palm must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '0aa90082cf3eb05d53e38ab0db627b56') in 0.078489 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.414722 seconds.
-  path: Assets/Diving Simulation/Scenes/Death (Oxygen).unity
-  artifactKey: Guid(6bdd044524591df4c91e8796e0c6ddb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Diving Simulation/Scenes/Death (Oxygen).unity using Guid(6bdd044524591df4c91e8796e0c6ddb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af44f60388ba0b979c3fb9b61743b687') in 0.006509 seconds 
+  Time since last request: 58.402048 seconds.
+  path: Assets/Diving Simulation/Resources/Ocean Assets/Prefabs/Boat.prefab
+  artifactKey: Guid(37aa9932f21a5324b8955f268ae625df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diving Simulation/Resources/Ocean Assets/Prefabs/Boat.prefab using Guid(37aa9932f21a5324b8955f268ae625df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f279984a5ec8dfacbb0a5619ef4d5d6') in 0.125074 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.530845 seconds.
-  path: Assets/Diving Simulation/Scenes/Simulation.unity
-  artifactKey: Guid(0f5ce03b13eaa324b866a5830c8e9aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Diving Simulation/Scenes/Simulation.unity using Guid(0f5ce03b13eaa324b866a5830c8e9aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c9caeb9f775ada0dd4fb8f6c94f46d') in 0.004492 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/Diving Simulation/Resources/Ocean Assets/Prefabs/Crab.prefab
+  artifactKey: Guid(729d7e8ab58da60408a90c19023b25c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diving Simulation/Resources/Ocean Assets/Prefabs/Crab.prefab using Guid(729d7e8ab58da60408a90c19023b25c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16cf2c2c6e056e01d9e9fd5d1c2378e') in 0.022322 seconds 
 ========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 4.90 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.03 ms.
-Unloading 54 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 54 unused Assets / (117.2 KB). Loaded Objects now: 6917.
-Memory consumption went from 118.4 MB to 118.3 MB.
-Total: 2.504500 ms (FindLiveObjects: 0.304300 ms CreateObjectMapping: 0.182600 ms MarkObjects: 1.897600 ms  DeleteObjects: 0.119500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Diving Simulation/Resources/Ocean Assets/Prefabs/Fish (stack).prefab
+  artifactKey: Guid(fee861fc592ff4d448ebb3e279426876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diving Simulation/Resources/Ocean Assets/Prefabs/Fish (stack).prefab using Guid(fee861fc592ff4d448ebb3e279426876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0fd3da78f684593c6705977f982cb0') in 0.035081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Diving Simulation/Resources/Ocean Assets/Prefabs/Turtle.prefab
+  artifactKey: Guid(c1c77ee6b345ff2448a45a9e39cd29d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Diving Simulation/Resources/Ocean Assets/Prefabs/Turtle.prefab using Guid(c1c77ee6b345ff2448a45a9e39cd29d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1466fa10649990cc71c9870a423f8d3c') in 0.026164 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
