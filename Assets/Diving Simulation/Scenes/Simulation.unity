@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.07309551, g: 0.13567844, b: 0.20489347, a: 1}
+  m_IndirectSpecularColor: {r: 0.07214585, g: 0.1337567, b: 0.20241955, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
@@ -21141,13 +21141,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245153086}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d49f828356acd9b45927a0a9665b224a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   trackOculusLeftHand: 1
-  OculusLeftHand: {fileID: 1246453906}
+  OculusLeftHand: {fileID: 1625834261}
 --- !u!1001 &1245875487
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21222,12 +21222,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7153455039194918361, guid: 31cd7e0f78ae4f4459c42e0778304f8e,
     type: 3}
   m_PrefabInstance: {fileID: 1245875487}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1246453906 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6536860777161113873, guid: 70d02a90551f23042a882cdceeaf8e3a,
-    type: 3}
-  m_PrefabInstance: {fileID: 1460604290}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1252352128 stripped
 Transform:
