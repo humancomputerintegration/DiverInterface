@@ -15,7 +15,7 @@ C:/Users/jasbo/Documents/Test Test/DiverInterface2022
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53343
+60949
 Successfully changed project path to: C:/Users/jasbo/Documents/Test Test/DiverInterface2022
 C:/Users/jasbo/Documents/Test Test/DiverInterface2022
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ C:/Users/jasbo/Documents/Test Test/DiverInterface2022
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 5889.10 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 7.96 ms.
+Refreshing native plugins compatible for Editor in 171.69 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.56 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/jasbo/Documents/Test Test/DiverInterface2022/Assets
@@ -64,11 +64,113 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.075534 seconds.
+Registered in 0.010300 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 155.15 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.808 seconds
+Domain Reload Profiling:
+	ReloadAssembly (809ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (601ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (120ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (387ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (66ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (156ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011135 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jasbo\Documents\Test Test\DiverInterface2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jasbo\Documents\Test Test\DiverInterface2022\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 156.89 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Package Manager log level set to [2]
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.78.0
+Mono: successfully reloaded assembly
+- Completed reload, in  1.799 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1802ms)
+		BeginReloadAssembly (243ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (1411ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (348ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (107ms)
+			SetupLoadedEditorAssemblies (780ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (157ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (353ms)
+				ProcessInitializeOnLoadMethodAttributes (106ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.94 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 6471 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (428.7 KB). Loaded Objects now: 6909.
+Memory consumption went from 259.6 MB to 259.1 MB.
+Total: 4.762100 ms (FindLiveObjects: 0.521300 ms CreateObjectMapping: 0.279400 ms MarkObjects: 2.997300 ms  DeleteObjects: 0.962800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1032439.786925 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8df6bccfaeea7c160e2ca3bda91111') in 0.051618 seconds 
