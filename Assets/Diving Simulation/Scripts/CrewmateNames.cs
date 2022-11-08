@@ -2,17 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class CrewmateNames : MonoBehaviour
 {
 
     public CallTowerManager ctm;
-    private Text textBox;
+    private TextMeshPro textBox;
 
     // Start is called before the first frame update
     void Start()
     {
-        textBox = this.GetComponent<Text>();
+        textBox = this.GetComponent<TextMeshPro>();
     }
 
     // Update is called once per frame

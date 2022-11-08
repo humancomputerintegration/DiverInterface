@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ToggleTracking : MonoBehaviour
+public class ToggleTrackingLeft : MonoBehaviour
 {
 
     public bool trackOculusLeftHand = true;
