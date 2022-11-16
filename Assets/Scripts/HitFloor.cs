@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,8 +13,7 @@ public class HitFloor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (this.transform.position.y <= 0.5f)
-        {
+        if (this.transform.position.y <= 0.5f){
             Debug.Log("hit");
         }
     }
